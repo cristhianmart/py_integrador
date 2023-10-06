@@ -16,3 +16,5 @@ if st.button("enviar"):
         st.warning('Debes llenar todo los campos', icon="⚠️")
     else:
         pywhatkit.sendwhatmsg(telefono, mensaje, int(hora), int(minuto))
+
+st.write("Recuerda tener WhatsApp Web abierto en tu computador")
