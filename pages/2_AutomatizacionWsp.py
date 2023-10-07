@@ -1,5 +1,5 @@
 import streamlit as st
-import pywhatkit 
+import pywhatkit as pw
 
 # Diseño personalizado
 st.header("Automatización de mensajes para chats de WhatsApp")
@@ -15,6 +15,6 @@ if st.button("enviar"):
     if telefono == "" or mensaje == "" or hora == "" or minuto == "":
         st.warning('Debes llenar todo los campos', icon="⚠️")
     else:
-        pywhatkit.sendwhatmsg(telefono, mensaje, int(hora), int(minuto))
+        pw.sendwhatmsg(telefono, mensaje, int(hora), int(minuto))
 
 st.write("Recuerda tener WhatsApp Web abierto en tu computador")
