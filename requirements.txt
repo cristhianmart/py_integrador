@@ -28,6 +28,7 @@ packaging==23.1
 paho-mqtt==1.6.1
 pandas==2.1.1
 Pillow==9.5.0
+Pint==0.22
 protobuf==4.24.3
 pyarrow==13.0.0
 PyAutoGUI==0.9.54
